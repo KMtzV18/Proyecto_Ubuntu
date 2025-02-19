@@ -307,7 +307,7 @@ public class Vista2 extends javax.swing.JFrame {
 
     private void btnVolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVolverActionPerformed
         this.dispose();
-        v.setVisible(true);
+        //v.setVisible(true);
     }//GEN-LAST:event_btnVolverActionPerformed
 
     /**

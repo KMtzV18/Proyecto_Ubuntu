@@ -29,7 +29,7 @@ public class CRM {
     public void Eliminar(JTable tabla) throws SQLException{
         Connection conn = (Connection) conexion.obtenerConexion();
         PreparedStatement pstmt = null;
-        ResultSet rs = null;
+        
         DefaultTableModel modelo = (DefaultTableModel) tabla.getModel();
         
         Vista v = new Vista();
@@ -43,7 +43,7 @@ public class CRM {
         
         pstmt.executeUpdate();
         
-        rs.close();
+        
         pstmt.close();
         conn.close();
         
