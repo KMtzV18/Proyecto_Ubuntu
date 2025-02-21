@@ -91,9 +91,10 @@
                                       <Component id="txtID" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="btnVolver" min="-2" pref="106" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                                  <Component id="btnGuardar" min="-2" pref="107" max="-2" attributes="0"/>
+                                  <Component id="btnVolver" min="-2" pref="109" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="btnGuardar" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -125,9 +126,9 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btnVolver" alignment="3" min="-2" pref="71" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnGuardar" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                              <Component id="btnVolver" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -278,11 +279,10 @@
               <Color blue="db" green="f2" red="ff" type="rgb"/>
             </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="yo"/>
-                <StringItem index="1" value="tu"/>
-                <StringItem index="2" value="el"/>
-                <StringItem index="3" value="ella"/>
+              <StringArray count="3">
+                <StringItem index="0" value="Compra"/>
+                <StringItem index="1" value="Donacion"/>
+                <StringItem index="2" value="Licitacion"/>
               </StringArray>
             </Property>
           </Properties>

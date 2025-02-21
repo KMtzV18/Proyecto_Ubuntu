@@ -233,22 +233,6 @@ public class CRM {
         if (conn != null) try { conn.close(); } catch (SQLException e) { e.printStackTrace(); }
     }
 }
-
-    
-//    public void cargarCB(JComboBox cb) throws SQLException{
-//        List<String> datos = new ArrayList<>();
-//        Connection conn = (Connection) conexion.obtenerConexion();
-//        PreparedStatement pstmt = null;
-//        ResultSet rs = null;
-//        
-//        String sql = "select Nombre,ubicacion from Areas";
-//        pstmt = conn.prepareStatement(sql);
-//        rs = pstmt.executeQuery();
-//        while (rs.next()) {
-//                String nombre = rs.getString("nombre")+" , "+rs.getString("ubicacion"); 
-//                datos.add(nombre);
-//            }
-//    }
     
     
     
