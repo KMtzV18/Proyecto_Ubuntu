@@ -15,7 +15,7 @@ import java.sql.SQLException;
 public class Conexion {
     // Método para obtener la conexión a la base de datos
     public static Connection obtenerConexion() throws SQLException {
-        String url = "jdbc:mysql://192.168.20.139:3306/proyecto?zeroDateTimeBehavior=CONVERT_TO_NULL";
+        String url = "jdbc:mysql://192.168.20.146:3306/proyecto?zeroDateTimeBehavior=CONVERT_TO_NULL";
         String usuario = "kevin"; // Usuario de la base de datos
         String contraseña = "kevin123"; // Contraseña de la base de datos
 

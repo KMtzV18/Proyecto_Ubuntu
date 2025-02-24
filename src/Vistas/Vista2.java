@@ -26,8 +26,8 @@ public class Vista2 extends javax.swing.JFrame {
         txtDescripcion.setText(descripcion);
         txtSerie.setText(serie);
         txtColor.setText(color);
-        SimpleDateFormat formato = new SimpleDateFormat("yyyy-MM-dd"); // Ajusta el formato a tu base de datos
-        Date fecha = formato.parse(fecha_ad);  // Convierte el String a Date
+        SimpleDateFormat formato = new SimpleDateFormat("yyyy-MM-dd");
+        Date fecha = formato.parse(fecha_ad);
         CFecha.setDate(fecha);
         //CFecha.setDateFormatString(fecha_ad);
         CbTipo_Ad.setSelectedItem(tipo_ad);

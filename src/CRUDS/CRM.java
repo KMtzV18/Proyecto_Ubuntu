@@ -168,11 +168,13 @@ public class CRM {
         DefaultTableModel modelo = (DefaultTableModel) tabla.getModel();
         Connection conn = (Connection) conexion.obtenerConexion();
         PreparedStatement pstmt = null;
+        PreparedStatement pstmt2 = null;
         ResultSet rs = null;
+        ResultSet rs2 = null;
         modelo.setRowCount(0);
-        String[] columnas = {"ID", "NOMBRECORTO", "DESCRIPCION","SERIE","COLOR"};
+        String[] columnas = {"ID", "NOMBRECORTO", "DESCRIPCION","SERIE","COLOR","AREAS_id"};
         try{
-            String sql = "select id,NombreCorto,Descripcion,Serie,Color from Inventario";
+            String sql = "select id,NombreCorto,Descripcion,Serie,Color,AREAS_id from Inventario";
             pstmt = conn.prepareStatement(sql);
             
         
